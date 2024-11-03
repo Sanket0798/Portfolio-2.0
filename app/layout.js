@@ -2,6 +2,8 @@ import { Roboto_Mono, Roboto_Flex, Orbitron } from "next/font/google";
 import "./styles/globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Reviews from "./components/Reviews";
+import FAQs from "./components/FAQs";
 
 // Configure the fonts with desired weights
 const robotoMono = Roboto_Mono({
@@ -11,8 +13,8 @@ const robotoMono = Roboto_Mono({
 });
 
 const orbitron = Orbitron({
-  subsets: ['latin'], // Choose the subset as per your project requirements
-  weight: ['400', '700'], // Include specific weights, e.g., 400, 700
+  subsets: ["latin"], // Choose the subset as per your project requirements
+  weight: ["400", "700"], // Include specific weights, e.g., 400, 700
 });
 
 const robotoFlex = Roboto_Flex({
@@ -38,11 +40,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${robotoMono.variable} ${robotoFlex.variable} font-sans antialiased pt-[28px] pb-[28px]`}
       >
-         <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen">
           <Navbar />
-          <main className="flex-grow">
-            {children}
-          </main>
+          <main className="flex-grow">{children}</main>
+          <Reviews />
+          <FAQs />
           <Footer />
         </div>
       </body>
