@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${robotoMono.variable} ${robotoFlex.variable} font-sans antialiased pt-[28px] pb-[28px]`}
+        className={`${robotoMono.variable} ${robotoFlex.variable} ${orbitron.variable} font-sans antialiased pt-[28px] pb-[28px]`}
       >
         <div className="flex flex-col min-h-screen">
           <Navbar />
