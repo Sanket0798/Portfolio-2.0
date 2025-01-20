@@ -21,3 +21,38 @@ export const projects = [
     gallery: ["/images/logistics-1.jpg", "/images/logistics-2.jpg"],
   },
 ];
+
+export const workHistory = [
+  {
+    role: "PRODUCT DESIGNER",
+    company: "ZheBike",
+    period: "2023 - 2024",
+    skills: ["UX/UI", "Communication", "Usability testing"],
+    context:
+      "Created a solution to digitally transform a commerce website to showcase its unique products and connect with its target market. We effectively improved user experience by solving the user interface and removing a conversion-killing paywall.",
+  },
+  {
+    role: "PRODUCT DESIGNER",
+    company: "HNG Internship",
+    period: "2022 - 2023",
+    skills: ["UX/UI", "Communication", "Collaboration"],
+    context:
+      "Working closely with a professional program that provides aspiring tech professionals with hands-on experience in various disciplines, including product design. As a Product Designer, I had the opportunity to contribute to the creation of multiple user-based interfaces and user flows.",
+  },
+  {
+    role: "JUNIOR PRODUCT DESIGNER",
+    company: "Zuri",
+    period: "2022 - 2023",
+    skills: ["UX/UI", "Communication", "Collaboration"],
+    context:
+      "At Zuri Digital Agency, I provided comprehensive branding and web development services to a diverse client base. As a Junior Product Designer, I had the opportunity to contribute to the creation of several brand identities and the creation of engaging user interfaces.",
+  },
+  {
+    role: "LEAD PRODUCT DESIGNER",
+    company: "Stream",
+    period: "2021 - 2022",
+    skills: ["UX/UI", "Communication", "Leadership"],
+    context:
+      "Working as a consultant with dynamic music streaming service with a mission to revolutionize music consumption by offering a unique and personalized experience that recognizes the profound impact of music on human expression and connection.",
+  },
+];
