@@ -56,3 +56,54 @@ export const workHistory = [
       "Working as a consultant with dynamic music streaming service with a mission to revolutionize music consumption by offering a unique and personalized experience that recognizes the profound impact of music on human expression and connection.",
   },
 ];
+
+export const reviews = [
+  {
+    text: "She brings fresh perspectives that drive Real results!",
+    author: "Future Driven",
+    role: "CEO at TechForward",
+    image: "/assets/images/global/reviews/1.png",
+  },
+  {
+    text: "She is A Valuable Asset to Any Team",
+    author: "Maryam Anneley",
+    role: "Product Manager",
+    image: "/assets/images/global/reviews/2.png",
+  },
+  {
+    text: "Working with Sandra Delivered Measurable Impact",
+    author: "Caleb T. Sycamore",
+    role: "Design Director",
+    image: "/assets/images/global/reviews/3.png",
+  },
+  {
+    text: "Exceptional attention to detail and creative solutions",
+    author: "Emma Thompson",
+    role: "Creative Lead",
+    image: "/assets/images/global/reviews/4.png",
+  },
+  {
+    text: "Outstanding ability to translate ideas into reality",
+    author: "James Wilson",
+    role: "Startup Founder",
+    image: "/assets/images/global/reviews/5.png",
+  },
+  {
+    text: "Innovative approach to problem-solving",
+    author: "Sarah Chen",
+    role: "UX Director",
+    image: "/assets/images/global/reviews/6.png",
+  },
+  {
+    text: "Transformed our product with exceptional design",
+    author: "Michael Roberts",
+    role: "Product Owner",
+    image: "/assets/images/global/reviews/7.png",
+  },
+  {
+    text: "Consistently delivers beyond expectations",
+    author: "Lisa Anderson",
+    role: "Marketing Director",
+    image: "/assets/images/global/reviews/8.png",
+  },
+];
