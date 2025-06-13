@@ -80,9 +80,9 @@ export default function Reviews() {
                     {review.text}
                   </h2>
                   <p className="text-sm sm:text-base text-zinc-300 leading-relaxed">
-                    Sandra Benard is an outstanding professional for any product
+                    Sanket Rathod is an outstanding professional for any product
                     design role. With remarkable learning ability, unwavering
-                    work ethic, and creative problem-solving skills, she’s an
+                    work ethic, and creative problem-solving skills, he’s an
                     invaluable asset to any team.
                   </p>
                 </div>
