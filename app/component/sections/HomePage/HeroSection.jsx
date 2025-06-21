@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Eye } from "lucide-react";
+// import Lanyard from "@/src/blocks/Components/Lanyard/Lanyard"
+import AnimatedList from "@/src/blocks/Components/AnimatedList/AnimatedList";
+import ProfileCard from "@/src/blocks/Components/ProfileCard/ProfileCard";
 
 const HeroSection = () => {
   return (
@@ -29,7 +32,8 @@ const HeroSection = () => {
             </button>
           </div>
         </motion.div>
-        <motion.div
+        <ProfileCard className=""/>
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4 }}
@@ -40,7 +44,7 @@ const HeroSection = () => {
             alt="Portrait"
             className="rounded-2xl w-full h-[600px] object-cover"
           />
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
