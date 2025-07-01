@@ -4,6 +4,45 @@ import { ArrowUpRight, Eye } from "lucide-react";
 // import Lanyard from "@/src/blocks/Components/Lanyard/Lanyard"
 import AnimatedList from "@/src/blocks/Components/AnimatedList/AnimatedList";
 import ProfileCard from "@/src/blocks/Components/ProfileCard/ProfileCard";
+import { IconCloud } from "@/src/components/magicui/icon-cloud";
+
+const slugs = [
+  "typescript",
+  "javascript",
+  "dart",
+  "java",
+  "react",
+  "flutter",
+  "android",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "amazonaws",
+  "postgresql",
+  "firebase",
+  "nginx",
+  "vercel",
+  "testinglibrary",
+  "jest",
+  "cypress",
+  "docker",
+  "git",
+  "jira",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "androidstudio",
+  "sonarqube",
+  "figma",
+];
+ 
+
+  const images = slugs.map(
+    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`,
+  );
 
 const HeroSection = () => {
   return (
@@ -32,7 +71,7 @@ const HeroSection = () => {
             </button>
           </div>
         </motion.div>
-        <ProfileCard className=""/>
+        {/* <ProfileCard className=""/> */}
         {/* <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -45,6 +84,10 @@ const HeroSection = () => {
             className="rounded-2xl w-full h-[600px] object-cover"
           />
         </motion.div> */}
+
+         <div className="relative flex size-full items-center justify-center overflow-hidden">
+      <IconCloud images={images} />
+    </div>
       </div>
     </section>
   );

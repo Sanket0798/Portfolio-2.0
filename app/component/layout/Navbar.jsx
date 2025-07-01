@@ -2,6 +2,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { Navbars, NavBody, NavbarLogo, NavItems, NavbarButton } from "@/src/components/ui/resizable-navbar";
+
+const navLinks = [
+  { name: "HOME", link: "/" },
+  { name: "ABOUT", link: "/about" },
+  { name: "PROJECTS", link: "/projects" },
+  { name: "SERVICES", link: "/services" },
+  { name: "CONTACT", link: "/contact" },
+];
 
 const Navbar = () => {
   return (
@@ -62,6 +71,18 @@ const Navbar = () => {
         </motion.div>
       </nav>
     </header>
+    
+    
+    // <p>Hello world</p>
+  // <Navbars/>
+
+  // <Navbars>
+  //     <NavBody>
+  //       <NavbarLogo />
+  //       <NavItems items={navLinks} />
+  //       <NavbarButton href="/contact">Contact</NavbarButton>
+  //     </NavBody>
+  //   </Navbars>
   );
 };
 
